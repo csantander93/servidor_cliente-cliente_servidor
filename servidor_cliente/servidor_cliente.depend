@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1694737043 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\cliente.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+	"cliente.h"
+
+1694746327 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\main.cpp
+	<iostream>
+	"servidor.cpp"
+
+1694746573 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1694746573 d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1694736213 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\usuario.cpp
+	<iostream>
+	<cstring>
+
+1694736297 d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\usuario.cpp
+	<iostream>
+	<cstring>
+
+1694737252 d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\cliente.h
+
+1694746438 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\logger.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1694746438 d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\logger.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1694746438 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\logger.cpp
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+
+1696165385 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\main.cpp
+	<iostream>
+	"servidor.cpp"
+
+<<<<<<< HEAD
+1696246489 d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+=======
+1699276448 d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+>>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+	<regex>
+	<set>
+	<limits>
+
+<<<<<<< HEAD
+1696246489 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+=======
+1699276448 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\servidor_cliente\servidor.cpp
+>>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
+	<iostream>
+	<winsock2.h>
+	<fstream>
+	<sstream>
+	<string>
+	<regex>
+	<set>
+	<limits>
+

@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1694174134 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\main.cpp
+	<iostream>
+	"cliente.cpp"
+
+1694780528 d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\cliente.cpp
+	<iostream>
+	<limits>
+	<winsock2.h>
+	<fstream>
+	<regex>
+
+1694544422 source:d:\unla pc\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\cliente.cpp
+	<iostream>
+	<limits>
+	<winsock2.h>
+
+1695141077 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\main.cpp
+	<iostream>
+	"cliente.cpp"
+
+1696259125 d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\cliente.cpp
+	<iostream>
+	<limits>
+	<winsock2.h>
+	<fstream>
+	<regex>
+	<set>
+
+1696160943 source:d:\carrera unla\3er aÑo\2do cuatrimestre\1 - redes y comunicaciones (lunes 8am a 14pm)\trabajo practico\cliente_servidor\cliente_servidor\cliente.cpp
+	<iostream>
+	<limits>
+	<winsock2.h>
+	<fstream>
+	<regex>
+	<set>
+
