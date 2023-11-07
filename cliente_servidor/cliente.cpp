@@ -239,30 +239,17 @@ void MenuAdmin() {
                     }
 			}
             if (opcion == 4) {
-<<<<<<< HEAD
-                // Declarar una cadena para almacenar el mensaje recibido
-                std::string mensajeRecibido;
-=======
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
 
                 // Declaro un buffer con un tamaño fijo pero que esta vez se va a ir concatenando
                 char bufferTemp[1024];
 
                 // Bandera para controlar la salida del bucle
                 bool seguirRecibiendo = true;
-<<<<<<< HEAD
-
-=======
                 std::cout << "------- INICIO HISTORIAL ------\n\n" << std::endl;
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
                 // Bucle para recibir datos en fragmentos
                 while (seguirRecibiendo) {
                     // Ahora recibo del servidor y guardo en la variable bufferTemp
                     int bytesRecibidos = recv(server, bufferTemp, sizeof(bufferTemp) - 1, 0);
-<<<<<<< HEAD
-
-=======
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
                     // Manejar errores de recepcion, en el caso que no este llegando info
                     if (bytesRecibidos <= 0) {
                         if (bytesRecibidos == 0) { // igual a 0 es porque se perdió la conexión
@@ -278,26 +265,15 @@ void MenuAdmin() {
 
                     // termino el buffer temporal con el carácter nulo
                     bufferTemp[bytesRecibidos] = '\0';
-<<<<<<< HEAD
-
-                    // concateno el fragmento recibido a la cadena completa
-                    mensajeRecibido += bufferTemp;
-=======
                     // Mostrar los datos recibidos hasta ahora
                     std::cout << bufferTemp;
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
 
                     // Si no hay mas datos para recibir, salgo del bucle
                     if (bytesRecibidos < sizeof(bufferTemp) - 1) {
                         seguirRecibiendo = false; // Cambiamos la bandera
                     }
                 }
-<<<<<<< HEAD
-
-                std::cout << "------- HISTORIAL ------\n\n" << mensajeRecibido << std::endl;
-=======
                 std::cout << "------- FIN HISTORIAL ------\n\n" << std::endl;
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
             }
 
 			if (opcion == 0){

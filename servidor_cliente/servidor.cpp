@@ -227,12 +227,7 @@ void ManejarConexion() {
         }
 
         if(opcion == 4){
-<<<<<<< HEAD
-            std::string contenido = traerArchivoLog("server.log.txt");
-            send(client, contenido.c_str(), contenido.length(), 0);
-=======
             enviarServerLog("server.log.txt");
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
         }
 
         if (bytesReceived == SOCKET_ERROR) {
@@ -700,36 +695,14 @@ bool usuarioBloqueadoExiste(const std::set<std::string>& usuariosExistentes, con
     return existe; // El usuario no existe
 }
 
-<<<<<<< HEAD
-///Metodo que se encarga de abrir un determinado archivo y leer su contenido linea po linea
-std::string traerArchivoLog(const std::string &nombreArchivo) {
-=======
 ///Metodo que se encarga de abrir un determinado archivo y leer su contenido para enviarselo linea por linea al cliente.
 void enviarServerLog(const std::string &nombreArchivo) {
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
     // Abre el archivo
     std::ifstream archivo(nombreArchivo);
 
     // Verifica si se pudo abrir el archivo
     if (!archivo.is_open()) {
         std::cerr << "Error al abrir el archivo: " << nombreArchivo << std::endl;
-<<<<<<< HEAD
-        return "";
-    }
-
-    // Lee el contenido del archivo línea por línea
-    std::string contenido;
-    std::string linea;
-    //mientras se pueda leer el archivo vamos a concatenar todo su contenido
-    while (std::getline(archivo, linea)) {
-        contenido += linea + "\n";
-    }
-
-    // Cierra el archivo
-    archivo.close();
-
-    return contenido; //retornamos todo lo obtenido
-=======
         return;
     }
 
@@ -750,7 +723,6 @@ void enviarServerLog(const std::string &nombreArchivo) {
     }
     // Cierra el archivo
     archivo.close();
->>>>>>> f2daa05 (buffer solucionado definitivo, se achico server.log para poder ahcer push)
 }
 
 };
